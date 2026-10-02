@@ -460,8 +460,17 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "www.boba88slot.com:443,www.visa.com.hk:443,www.visa.com.tw:443,www.gco.gov.qa:443,www.gov.ua:443,www.digitalocean.com:443,www.csgo.com:443,www.shopify.com:443,www.ipget.net:443,www.4chan.org:443,www.okcupid.com:443,www.udemy.com:443,xn--b6gac.eu.org:443,log.bpminecraft.com:443,www.iakeys.com:443,www.whoer.net:443,time.cloudflare.com:443,shopify.com:443,icook.hk:443,icook.tw:443,skk.moe:443,www.visa.com:443,www.visa.com.sg:443,www.visa.co.jp:443,www.gov.se:443,www.udacity.com:443,www.glassdoor.com:443,www.zsu.gov.ua:443,www.d-555.com:443,fbi.gov:443,www.baipiao.eu.org:443,www.whatismyip.com:443,www.visakorea.com:443,gur.gov.ua:443,russia.com:443,time.is:443,japan.com:443,malaysia.com:443
-",
+        # 2026-10-02 联通优选域名 (38 个, 来自 pinginfoview 实测)
+        "www.boba88slot.com:443,www.visa.com.hk:443,www.visa.com.tw:443,www.gco.gov.qa:443,"
+        "www.gov.ua:443,www.digitalocean.com:443,www.csgo.com:443,www.shopify.com:443,"
+        "www.ipget.net:443,www.4chan.org:443,www.okcupid.com:443,www.udemy.com:443,"
+        "xn--b6gac.eu.org:443,log.bpminecraft.com:443,www.iakeys.com:443,www.whoer.net:443,"
+        "time.cloudflare.com:443,shopify.com:443,icook.hk:443,icook.tw:443,"
+        "skk.moe:443,www.visa.com:443,www.visa.com.sg:443,www.visa.co.jp:443,"
+        "www.gov.se:443,www.udacity.com:443,www.glassdoor.com:443,www.zsu.gov.ua:443,"
+        "www.d-555.com:443,fbi.gov:443,www.baipiao.eu.org:443,www.whatismyip.com:443,"
+        "www.visakorea.com:443,gur.gov.ua:443,russia.com:443,time.is:443,"
+        "japan.com:443,malaysia.com:443",
     ).split(",")
     if h.strip()
 ]
